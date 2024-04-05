@@ -1,16 +1,20 @@
 Call Log Analyzer Web Application
-This web application processes and extracts information from a set of call logs using a Language Model (LLM). It allows users to set a single question and provide a list of call logs, from which a set of facts/answers are extracted. Users can also navigate through time to view the state of knowledge at different points based on the processed documents.
-Features
-•	Process call logs to extract relevant information based on a user-provided question.
-•	Display extracted facts/answers in a question and answer screen.
-•	Allow users to navigate through time to view historical data.
-•	Provide a document addition screen to add new call transcripts.
-•	Highlight facts added or removed in the last 24 hours.
-•	Handle contradictions within and across documents, suggesting necessary modifications.
 
-Technologies Used
-•	Frontend: HTML, CSS, JavaScript
-•	Backend: Python
-•	Language Model (LLM):Text-to-Text Transfer Transformer(T5), Google Colab
-•	Frameworks: Frontend - React.js,Backend - Flask
-•	Additional Tools: AWS (for hosting)
+Overview:
+
+The Call Log Analyzer Web Application leverages a powerful Language Model (LLM) to process and extract meaningful information from call logs. It's designed to help users pose questions and receive insightful answers based on their call log data, with the unique ability to navigate through time to view the evolution of data insights.
+
+Features:
+-Information Extraction: Processes call logs to extract information relevant to user-posed questions.
+-Q&A Interface: Displays extracted facts/answers in a dedicated Q&A screen.
+-Historical Navigation: Enables users to navigate through time for viewing historical data and insights.
+-Document Management: Offers a document addition screen for uploading new call transcripts.
+-Data Highlighting: Highlights new facts added or removed within the last 24 hours.
+-Contradiction Handling: Identifies contradictions within and across documents, suggesting modifications when necessary.
+
+
+Technologies Used:
+Frontend: HTML, CSS, JavaScript with React.js framework.
+Backend: Python with Flask framework.
+Language Model (LLM): Text-to-Text Transfer Transformer (T5) hosted on Google Colab.
+Hosting: AWS.
