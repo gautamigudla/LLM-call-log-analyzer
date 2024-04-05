@@ -1,0 +1,27 @@
+{
+    "questions": {
+        "dc9cc753-570e-495f-ac34-ec786dd301db": {
+            "question": "What color should we use?",
+            "documents": [
+                "https://example.com/call_log_20240317_104111.txt"
+            ]
+        }
+    },
+    "facts": {
+        "dc9cc753-570e-495f-ac34-ec786dd301db": [
+            {
+                "fact_id": "350afc4a-2937-4ecf-bf59-c58397b3b142",
+                "date": "2024-03-17",
+                "fact": "?",
+                "timestamp": "2024-04-03T14:55:09.881321",
+                "approved": true
+            }
+        ]
+    },
+    "document_dates": [
+        "2024-03-17"
+    ],
+    "processing_status": {
+        "dc9cc753-570e-495f-ac34-ec786dd301db": "done"
+    }
+}
