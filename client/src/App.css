@@ -1,0 +1,67 @@
+/* Basic reset */
+body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* App component specific styles */
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.App input[type='text'],
+.App button {
+  margin: 10px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.App input[type='text'] {
+  width: calc(100% - 22px); /* full width minus margin and border */
+}
+
+.App input[type='text']:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.App button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.App button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the document addition area with some spacing and alignment */
+.document-addition-area {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.document-addition-area input[type='text'] {
+  flex: 1;
+  min-width: 250px; /* Minimum width of text inputs */
+  max-width: 400px; /* Maximum width of text inputs */
+}
+
+.document-addition-area button {
+  white-space: nowrap; /* Prevents the button text from wrapping */
+}
+
+/* Styles for recent and removed facts */
+.recent-fact {
+  background-color: lightgreen; /* Green background for added facts */
+}
+
+.removed-fact {
+  background-color: lightcoral; /* Red background for removed facts */
+}
